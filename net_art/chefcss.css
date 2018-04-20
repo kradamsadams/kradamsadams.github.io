@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Faster+One|Monoton|Orbitron|Oswald|Pacifico');
+
+body {
+	background-color:#d7e8f2
+}
+
+#holder {
+	width:80vw;
+	margin: 0 auto;
+	background-color:#d7e8f2;
+	padding:0;
+}
+
+
+
+}
+#logo {
+	width: 100%;
+	height: 100vh;
+	border:none;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0;
+
+}
+
+#bc {
+	width: 100%;
+	height: 30vw;
+	border:none;
+	text-align: center;
+	
+}
+
+#choose {
+	width:100%;
+	height:50vw;
+	border:none;
+	text-align:center;
+
+}
+
+#gif{
+	border:none;
+	width:50%;
+	height:20vw;
+	display:flex;
+}
+
+#gif2 {
+	border:none;
+	width:50%;
+	height:30vw;
+	display:flex;
+}
+
+#gif3 {
+	border:none;
+	width:75%;
+	height:35vw;
+	display:flex;
+}
+
+
+/*div {
+	text-align:center;
+
+}*/
