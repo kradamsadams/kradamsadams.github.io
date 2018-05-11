@@ -1,14 +1,18 @@
 
 let snowflakes = []; // array to hold snowflake objects
 
+var canvas;
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+	canvas=createCanvas (windowWidth,windowHeight);
+  // createCanvas(windowWidth, windowHeight);
+  canvas.position (0,0);
+  canvas.style ('z-index', '-1');
   fill(240);
   noStroke();
 }
 
 function draw() {
-  background('#111363');
+  background('#0e3c4f');
   let t = frameCount / 300; // update time
 
   // create a random number of snowflakes each frame
@@ -22,6 +26,12 @@ function draw() {
     flake.display(); // draw snowflake
   }
 }
+
+function windowResized(){
+resizeCanvas();
+}
+
+// }
 
 // snowflake class
 function snowflake() {
@@ -55,3 +65,4 @@ function snowflake() {
     ellipse(this.posX, this.posY, this.size);
   };
 }
+
