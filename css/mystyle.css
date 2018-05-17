@@ -55,11 +55,17 @@ h1 {
 		padding:30px;
 		margin:20px auto;
 }
+
+p {
+	font-family: 'Oswald', sans-serif;
+	/*padding-left:100px;
+	padding-right:100px;*/
+}
 /*	h3 {
 	color:#7a1962;
 }*/
 
-#animals{
+/*#animals{
 	width:100%;
 	height:100vh;
 	border:none;
@@ -90,7 +96,7 @@ h1 {
 	padding-left:260px;
 	padding-right:50px;
 	margin:auto;
-	text-align:center;
+	text-align:center;*/
 }
 
 /*#vid{
